@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +64,115 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	margin: 0% 20% 0% 20%;
+}
+
+header {
+	width: 100%;
+}
+
+a {
+	display: inline-block;
+	padding: 3% 3% 0% 3%;
+	text-decoration: none;
+	color: silver;
+}
+
+
+.logo {
+	position: absolute;
+	top: 2%;	
+	right: 20%;
+}
+
+#intlogo {
+	width: 100%;
+	margin-bottom: 60%;
+}
+
+h1 {
+	display: inline-block;
+	position: absolute;
+	width: 40%;
+	font-size: 9.8vh;
+	letter-spacing: 2px;
+	font-weight: bold;
+	padding: 8% 10% 5% 10%;
+	text-align: center;
+}
+
+h2 {
+	font-weight: bold;
+}
+
+#intlogo > img {
+	display: inline-block;
+	position: absolute;
+	padding-top: 5%;
+	width: 25%;
+	right: 20%;
+}
+
+#intlogo > button {
+	display: block;
+	position: absolute;
+	top: 53%;
+	left: 34.7%;
+	border: black solid 1px;
+	background-color: white;
+	color: black;
+	font-family: 'Titillium Web', sans-serif;
+	padding: 0.3% 3% 0.3% 3%;
+}
+
+#featabout {
+	border-top: black solid 1.5px;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+.fa {
+	display: inline-block;
+	width: 49.5%;
+}
+
+.fa:last-child {
+	padding-left: 2%;
+}
+
+.middle-img {
+	width: 100%;
+	margin-bottom: 4%;
+}
+
+
+#seprvi {
+	border-bottom: black solid 1.5px;
+	padding-bottom: 4%;
+}
+
+.spv {
+	display: inline-block;
+	width: 33%;
+}
+
+footer {
+	width: 100%;
+}
+
+address {
+	padding-top: 4%;
+	padding-bottom: 4%;	
+}
+
+#cr {
+	text-align: center;
+	margin-bottom: 4%;
+}
+
+
+
+
+
